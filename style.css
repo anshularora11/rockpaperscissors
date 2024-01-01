@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #B6BBC4;
+}
+#he {
+  background-color: #161A30;
+  color: beige;
+  height: 5rem;
+
+  line-height: 5rem;
+}
+#foot{background-color: #161A30;
+  color: beige;
+  height: 3rem;
+margin-top: 3rem;
+  line-height: 3rem;
+  
+
+}
+a {
+  text-decoration: none;
+  color: red;
+  background-color:#161A30 ;
+}
+.choice:hover{
+  
+  cursor: pointer;
+  background-color:#31304D;
+}
+
+.choice{
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+.score-board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2rem;
+  color: #161A30;
+}
+#user-score, #comp-score {
+  font-size: 4rem;
+}
+
+.msg-container{
+  margin-top: 5rem;
+}
+#msg {
+ 
+  color: beige;
+  background-color: #31304D;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+@media  screen and (max-width: 600px) {
+  #he{
+    height: 4rem;
+    width: 100%;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+  }
+  #foot{background-color: #161A30;
+    color: beige;
+    height: 3rem;
+  
+    line-height: 3rem;
+  
+
+
+    
+  
+  }
+  #fo{
+    margin-bottom: 0%;
+    padding: 0%;
+  }
+  .choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative; 
+    left: 160px;
+   
+    
+  }
+  .choices{
+   display:flow-root;
+   
+   
+   
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  img{
+    height: 135px;
+    width: 135px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  #msg {
+ 
+    color: beige;
+    background-color: #31304D;
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .msg-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+
+
+}
